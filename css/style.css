@@ -338,7 +338,7 @@ nav {
     border-radius: 10px 0px 0px 10px;
   }
 .project1 {
-    background-image: url(/images/01_Home/project1_.png);
+    background-image: url(../images/01_Home/project1_.png);
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
