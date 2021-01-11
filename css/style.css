@@ -137,7 +137,7 @@ nav {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     opacity: 1;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(2px);
     text-align: center;
     z-index: 1;
@@ -314,6 +314,7 @@ nav {
     background-color:white;
     padding-bottom: 6%;
     padding-top: 4%;
+        z-index: 0;
 }
 
 .projectContainer {
@@ -337,7 +338,10 @@ nav {
     border-radius: 10px 0px 0px 10px;
   }
 .project1 {
-    background-image: url();
+    background-image: url(/images/01_Home/project1_.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .project2 {
     background-image: url();
@@ -377,7 +381,15 @@ nav {
 
 
 
+/*BLUE DIAG
 
+.body-bottom-angle {
+    background: #0080B1;
+    height:1000px;
+    transform: skewY(-3.5deg);
+    transform-origin: 50%;
+}
+*/
 
 
 
