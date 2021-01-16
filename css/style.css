@@ -452,13 +452,29 @@ nav {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (min-device-width: 375px) 
+and (max-device-width: 812px),  screen and (min-device-width: 414px) 
+and (max-device-width: 736px), screen and (device-width: 360px) 
+and (device-height: 640px) {
 /* NAVIGATION */
-.NavLinks {
-    display: none;
+.NavHome {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(2px);
+
 }
-
-
+.NavLinks {
+    justify-content: flex-end;
+    padding: 0px 6% 0px 0px;
+}
+.NavLink {
+padding: 0px 0px 0px 20px;
+font-size: 12px;
+}
+.NavSocial {
+    display:none;
+}
 
 /*HEADER*/
 #homeHeader {
@@ -506,9 +522,7 @@ nav {
 
 .logo, .logo a{
     padding: 0px 0px 0px 6%;
+    align-items:center;
+}
 }
 
-@media screen and (max-width: 567px) {
-    body {
-        min-width: 300px;
-    }
