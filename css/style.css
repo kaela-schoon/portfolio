@@ -53,7 +53,7 @@ h5 {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font: normal normal normal 16px/24px Poppins;
+    font: normal normal normal 18px/27px Poppins;
     letter-spacing: 0px;
     color: #41465A;
     opacity: 1;
@@ -206,7 +206,7 @@ nav {
     background-color: #1F243A;
     background-size: cover;
     text-align: center;
-    padding: 160px 0px 120px 0px;
+    padding: 130px 0px 120px 0px;
     color:white;
     z-index: 0;
 }
@@ -217,7 +217,7 @@ nav {
 }
 
 #homeHeader h4 {
-    margin-top: -30px;
+    margin-top: -25px;
 }
 
 
@@ -256,7 +256,7 @@ nav {
 
 .RolesCardDesc {
     text-align:center;
-    padding: 50px 6% 0px 6%;
+    padding: 50px 13% 0px 13%;
 }
 
 .RoleLink {
@@ -288,9 +288,9 @@ nav {
     justify-content: space-between;
     z-index:200;
 }
-.ctaCopy, .ctaCopy H3 {
+.ctaCopy, .ctaCopy H2 {
     color:white;
-    line-height: 35px;
+    line-height: 60px;
 
 }
 
